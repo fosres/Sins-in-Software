@@ -1,0 +1,257 @@
+Sins in Software Development:
+
+Not Placing Code in a File Reversion System
+
+Okay. Let us discuss why you wasted SO MUCH TIME SOLVING
+
+my_max.cpp wrong. You were supposed to cook a program that 
+
+finds the maximum double and print that double. So, what
+
+went wrong? Well, you considered the equation for
+
+determing the equality of doubles:
+
+abs( x - y )/max(abs(x),abs(y)) <= Epsilon
+
+That is the optimal equation, unless either
+
+x or y is zero, in which case you use something
+
+else.
+
+But the problem with you is that you proceeded
+
+to try to solve the problem by converting doubles
+
+inputted into a string. This is flat out WRONG
+
+since lexicographical order is computed differently
+
+than numerical order according to computers. Now,
+
+you may argue that you did not truly understand that
+
+yet, but still, you should have still known better
+
+than to convert doubles to strings. Let me prove it.
+
+You based your decision to convert doubles to strings
+
+on a poor principle. The poor principle is this:
+
+well, it is rather "hard" to make code that compares inequalities
+
+involving doubles using only <iostream> (NOTE: The above formula
+
+will allow you to determine if the computer can tell
+
+the difference between doubles using standard relational
+
+operators <, >, <=, >=), so you JUMPED TO THE CONCLUSION
+
+THAT YOU SHOULD USE STRING BECAUSE THAT 'WAS THE ONLY WAY' 
+
+to solve the problem. The fallacy that you should do something
+
+just because the people in authority allowed you to.
+
+And then your professor reminded
+
+you the flaw in converting doubles to strings to 
+
+determine decimal order, when in reality you
+
+would end up determining lexicographical order instead.
+
+Lexicographical order and decimal order are not the same
+
+thing!
+
+
+There is actually another flaw in your software developmental
+
+thinking. You actually solved this problem in the past in
+
+AP Computer Science A. If you read the advice of experienced
+
+Software Developers more carefully, you would know that
+
+you should have SAVED YOUR CODE ON A FILE REVERSION SYSTEM.
+
+Whether that be Dropbox or GitHub. 
+
+"But wait", you say, "I didn't read that advice yet." 
+
+Response: You know what, you used Dropbox and you kept
+
+school assignments and other important documents on Dropbox
+
+for a LONG TIME, have you not? You intuitively knew having
+
+a habit like this can rescue you from big trouble one day
+
+because YOU NEVER KNOW WHEN YOU NEED THAT DOCUMENT AGAIN.
+
+And sure enough you did several, several, several times.
+
+Especially your high school transcript. 
+
+Likewise, GitHub was founded in 2008 and you could have
+
+stored all your code that took damn hard work to make like
+
+for comparing doubles accurately to prevent yourself from
+
+doing the very thing that is business suicide in the real
+
+world: REWRITING YOUR CODE THAT ALREADY WORKS FROM SCRATCH.
+
+If you have no idea what I am talking about, read "Things
+
+You Should Never Do, Part I" by Joel Spolsky on his blog
+
+Joel on Software. I will wait. And the saddest part of this
+
+story is, you read the entire article before you even made
+
+the mistake of trying to convert doubles to strings to compare
+
+double inequalities in the first place. How hypocritical of you
+
+to laugh at NetScape when you now made the same mistake.
+
+-------------------------------------------------------------------
+
+So I want you to IMAGINE you are the software architect of a major
+
+software company. You were responsible for leading the coding project
+
+designed to do the hard task of comparing doubles (NOT AN EASY TASK)
+
+and the problem is you can use no libraries except the equivalent of
+
+<iostream> or <string> because your software company switched to 
+
+developing on a brand new language like Swift (Apple) or Scala (Twitter)
+
+to adjust for SCALABILITY (the reason Apple and Twitter are pushing
+
+their developers to switch to each language, respectively).
+
+And then you, being the leader of the team, holler at your overworked
+
+software developers to make the code convert doubles to strings first
+
+and then compare them in lexicographical order... Your software developers
+
+either yell at your boss to get you fired for being a moron or they are too
+
+afraid because you are in a position of power (even worse). Assuming the second
+
+option, it just so happens that the calculations you made were for a literal
+
+mission critical venture to help launch an Internet Satellite to finally, finally
+
+give Africa the Internet it so desperately needs (https://www.euractiv.com/section/development-policy/news/failed-rocket-was-carrying-facebook-satellite-to-give-africa-the-internet/). Or
+
+maybe, just maybe, you are the software artichect for NASA who commanded your overworked
+
+software developers to developed code to calculate how the Mars Rover should land
+
+on the moon. But oops! It couldn't calculate the rate of thrust at liftoff.
+
+And then thanks to your idiot Boolean Logic, the launch explodes literally into
+
+complete pandemonium. And then, in a stupid attempt to save face, you blame other
+
+successful billionaires like Elon Musk when in reality, IT IS ALL YOUR FAULT, 
+
+especially because you solved the problem in Java before!!!
+
+------------------------------------------------------------------------------
+
+We have always wondered what the hell it was about Netscape that drove them into
+
+the stupid marketing tactic of rewriting code THAT ALREADY WORKS.
+
+We have a few good hypotheses:
+
+1. Code is harder to read than write, even if you made it. Especially
+
+if it is bad code. No matter how crappy the code is, as long as it
+
+works to reasonably satisfy consumers, stick with it. It's set in soil.
+
+Build upon it no matter how crappy the soil if you want your business TO
+
+NOT END UP like NetScape (Joel Spolsky: Things You Should Never Do, Part
+
+One). And let that be a warning to all of us that the first seeds of 
+
+code that found your coding business empire ARE THE MOST IMPORTANT ONES.
+
+They will be the 1-5% of effort throughout your company's existence that
+
+determines the 99-95% of results for the rest of your company's lifespan.
+
+2. They did not bother doing a good job of archiving AND documenting
+
+code in a file reversion system. BOTH ARE EQUALLY CRITICAL TO MAKE THIS 
+
+WORK. What is the whole point of storing your fully functional code in a
+
+library if you can't use the Search Option to find the code you need 
+
+(OUTSTANDING DOCUMENTATION: Lucidly explain what the code is supposed
+
+to do for you). 
+
+3. Stupid Boolean Logic. They figured that now they were "starting
+
+from scratch", they would have the opportunity to make "bigger
+
+and badder code". Indeed, a mistake many a beginning coder like
+
+me made. Flawed Logic indeed. Instead, they could have made
+
+simple edits to the shoddy code and turn it into GREAT CODE.
+
+Which obviously would have taken less time now that we all
+
+think about it.
+
+Instead of doing that, consider what Joel Spolsky said he
+
+did:
+
+"...On the Juno project we spent several months rearchitecting at one point: just moving things around, cleaning them up, creating base classes that made sense, and creating sharp interfaces between the modules. But we did it carefully, with our existing code base, and we didn’t introduce new bugs or throw away working code..."
+
+4. Or the code was "too slow". Listen to what Joel would have done to handle this:
+
+"A second reason programmers think that their code is a mess is that it is inefficient. The rendering code in Netscape was rumored to be slow. But this only affects A SMALL PART of the project, which you can optimize or even rewrite. You don’t have to rewrite the whole thing. When optimizing for speed, 1% of the work gets you 99% of the bang."
+
+Time-complexity algorithms are not as big a part of enterprise code as you like to think they are!
+
+5. Or the software developers USED CRAPPY CODING CONVENTIONS, see how Joel handled the situation:
+
+"Third, the code may be doggone ugly. One project I worked on actually had a data type called a FuckedString. Another project had started out using the convention of starting member variables with an underscore, but later switched to the more standard “m_”. So half the functions started with “_” and half with “m_”, which looked ugly. Frankly, this is the kind of thing you solve in five minutes with a macro in Emacs, not by starting from scratch."
+
+You know what, I will let Joel Spolsky, who obviously has milestones of experience ahead of me
+
+finish this document on our behalf:
+
+"It’s important to remember that when you start from scratch there is ABSOLUTELY NO REASON to believe that you are going to do a better job than you did the first time. First of all, you probably don’t even have the same programming team that worked on version one, so you don’t actually have “more experience”. You’re just going to make most of the old mistakes again, and introduce some new problems that weren’t in the original version."
+
+Anyways, these are the books you would want:
+
+First read: https://guides.github.com/features/wikis/
+
+Second get: Clean Code: A Handbook of Agile Software Craftsmanship
+
+Afer reading ALL OF THAT: Code Complete 2nd ed
+
+PUT ALL THE SOURCE CODE FILES ON GITHUB NOW!!!
+
+Put all these Sins files on GitHub too!
+
