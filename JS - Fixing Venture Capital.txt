@@ -1,0 +1,121 @@
+Fixing Venture Capital
+
+A lot of investments in dotcoms turned
+out to be flameouts. As a result, VCs
+are becoming ever more selective about
+where to put their money. To get funded
+these days, it's not enough to be a pet
+shotp on the web. Nope! You have to be a
+pet shop on the web with 802.11b wireless
+hotspots, your business plan is going right
+in the dumpster.
+
+The formerly secretive world of VC has
+become a bit more transparent, of late.
+VCs like Joi Ito, Andrew Anker, David Hornik,
+and Naval Ravikant have created weblogs which
+are a great source of insight into their 
+thought process.
+
+But Joel Spolsky says as he reads those books,
+he can't hellp but think that there's something
+wrong with the VC model as it exists today.
+Almost every page of these books makes me say, 
+"yep, that's why Fog Creek doesn't want venture
+capital." 
+
+There are certain fundamental 
+assumptions about doing business in the VC world
+that make venture capital a bad fit with
+entrepreneurship. And since it's the entrepeneurs
+who create the businesses that the VC's fund, this
+is a major problem.
+
+So Joel Spolsky states without apology that he
+NEVER LOOKED AT SEEKING VENTURE CAPITAL for his
+startup Fog Creek Software.
+
+VCs do not have goals that are aligned with the
+goals of the company founders. 
+
+A financial comparision of the goals between that
+of a VC and a founder:
+
+Many software companies these days are built using 
+some form of venture capital. But the VC industry 
+has been hurting lately. A lot of investments in 
+dotcoms turned out to be spectacular flameouts. 
+As a result, VCs are becoming ever more selective 
+about where to put their money. To get funded 
+these days, it’s not enough to be a pet shop on 
+the web. Nope! You have to be a pet shop on the 
+web with 802.11b wireless hotspots, or your 
+business plan is going right in the dumpster.
+
+Picture of Street Musicians in New Orleans
+The formerly secretive world of VC has become 
+a bit more transparent, of late. VCs like Joi 
+Ito, Andrew Anker, David Hornik, and Naval 
+Ravikant have created weblogs which are a 
+great source of insight into their thought 
+process. 
+
+That dotcom thing resulted in three 
+great books by company founders that look deep 
+inside the process of early stage financing 
+(see footnote). But as I read this stuff, as 
+a founder of a company, I can’t help but think 
+that there’s something wrong with the VC model 
+as it exists today. Almost every page of these 
+books makes me say, “yep, that’s why Fog Creek 
+doesn’t want venture capital.” 
+
+There are certain 
+fundamental assumptions about doing business in 
+the VC world that make venture capital a bad fit 
+with entrepreneurship. And since it’s the 
+entrepreneurs who create the businesses that the 
+VCs fund, this is a major problem. Here’s my 
+perspective on that, from a company founder’s 
+point of view.
+
+When people ask me if they should seek venture capital for their software startups, I usually say no. At Fog Creek Software, we have never looked for venture capital. Here’s why.
+
+The fundamental reason is that VCs do not have goals that are aligned with the goals of the company founders. This creates a built-in source of stress in the relationship. Specifically, founders would prefer reasonable success with high probability, while VCs are looking for fantastic hit-it-out-of-the-ballpark success with low probability. A VC fund will invest in a lot of startups. They expect about seven of them to fail, two of them to trudge along, and one of them to be The Next Netscape (“TNN”). It’s OK if seven fail, because the terms of the deal will be structured so that TNN makes them enough money to make up for all the losers.
+
+Although the real spreadsheets are many megabytes long and quite detailed, this is the VC’s calculation:
+
+A	Probability of Success	10%
+B	How rich I would get	$1,000,000,000
+C	Expected Return (A x B)	$100,000,000
+
+But founders are much more conservative than that. 
+They are not going to start ten companies in their 
+lifetime, they’re going to start, maybe, two. 
+A founder might prefer the following model:
+
+A	Probability of Success	80%
+B	How rich I would get	$100,000,000
+C	Expected Return (A x B)	$80,000,000
+
+See, VCs play cards with probability, wheras
+founders are interested in making their company
+THE KING Company that tops everyone else in
+generating revenue.
+
+"Founders would prefer reasonable success with high
+probability, while VCs are looking for fantastic
+hit-it-out-of-the-ballpark success with low 
+probability. VCs are willing to take a more of the
+lottery hit out of this." 
+
+"With saying, VCs invest in a lot of startups. They
+expect about seven of them to fail, two of them to
+trudge along, and one of them to be The Next
+Netscape"
+
+This is why Paul Graham argued in his essays that
+fundraising is NOT A RELIABLE INDICATOR OF A
+STARTUP'S SUCCESS PROBABILITY. It's the growth in
+revenue.
+

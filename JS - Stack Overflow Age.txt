@@ -1,0 +1,61 @@
+Joel Spolsky:
+
+Interestingly, when Jeff and I started Stack
+Overflow, we didn't really care if it was
+business and we didn't need it to be a 
+profitable success. We created it BECAUSE
+THE INTERNET SUCKED FOR PROGRAMMERS (WITHOUT
+STACKOVERFLOW) and we needed to make it
+better. 
+
+We thought the job listings would
+pay the bills (learn how that works), and
+we'd fix the internet (for developers)[sic],
+and that was all we cared about and it's what
+motivated us to work so hard.
+
+Of course, it turned out a lot bigger than we
+thought it would. The company today has 250
+employees, is profitable, and has made it
+possible for millions of people to learn how
+to code and to deal with the new, 
+super-complicated world of APIs and frameworks
+that we live in. But we just wanted to fix the
+internet (for developers).
+
+Joel Spolsky says:
+
+"I have met a lot of people who started businesses
+[just] (sic) because they wanted to started a 
+business. Paul Graham calls this "Playing House."
+And they didn't really care what the business did;
+they just wanted to "be entrepeneurs." (PRIDE).
+Which is weird, because being an entrepeneur 
+really care what the business did; they just wanted
+to "be entrepeneurs." Which is weird, because
+being an entrepeneur really sucks. 
+
+(NOTE: Joel Spolsky is the founder of Stack 
+Overflow and Fog
+Creek Software, so he knows what he is talking
+about.) "It is really hard to get through all the
+extroardinary difficulty, pain, and stress of
+starting a company if you're not super, super 
+motivated to solve a probem for the world.
+NOTE: Joel Spolsky is more motivated than you,
+whatever principle you base your decision to make
+a startup, it better have an insane white hot 
+desire to it.
+
+The entrepeneurs who succeed do so because it is
+incredibly important to them for a thing to exist
+in the world, and it does not yet exist, so they
+work like crazy until it does.
+
+Joel Spolsky says when we started Stack Overflow
+we did not expect it to be a big business; we just
+wanted there to be someplace where developers
+could get help to daily problems, while showing
+off how smart they were helping other developers.
+
+
