@@ -1,0 +1,66 @@
+Lesson on Hiring People
+
+What kind of person would you want to hire
+
+for the coding job?
+
+As for me, I would like the person who not
+
+only could conquer ALL THE PROBLEMS in
+
+"The Elements of Programming Interviews in
+
+C++" by Adnan Aziz. We would also want them
+
+to be able to pass tests in working on fictional 
+
+projects as a team. Basically, we will organize coders
+
+so that they work in groups of two. They must
+
+be of equivalent skill level or one of the worse
+
+coders will weigh down the potential of the other
+
+better coder. But what are the many,
+
+many tests this does?
+
+1. The coder does a great job of
+
+archiving code AND DOCUMENTING CODE
+
+THEY MADE IN THE PAST. The fictional
+
+project will be designed to test this
+
+in mind. Basically, the project will
+
+offer coding problems similiar (but slightly
+
+harder as they are allowed computers this
+
+time) to the coding interview questions--
+
+except these coding projects are actually
+
+based on past coding projects the software
+
+company has actually solved. Anyways,
+
+the best coders will thus obviously be the
+
+ones who have archived AND DOCUMENTED THEIR
+
+CODE OUTSTANDINGLY because they will be able
+
+to look at the similiar code they made in the
+
+past and simply copy and paste the code
+
+wherever necesssary.
+
+Now, if only we could figure out how to distinguish
+
+the best project managers and software architects?:
+
