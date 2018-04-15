@@ -1,0 +1,122 @@
+							Sins in Software Testing
+
+Let's take the opportunity to review some of the biggest mistakes I made in Software Testing.
+
+First of all, I had several problems generating the list of test values in the first place. Ideally,
+
+you want to make a single text file that can be accepted by your program as a list of input. Well,
+
+That ended up being a pain in the ***. For our PIC-10A class, we have to follow strict instructions
+
+based on what we were taught. A robot processes our source code. Yet, understand that the robot not
+
+only processes the source code for us, it also automates software testing. Because of the robot, our
+
+class will unfortunately never software testing. Ernest Ryu will not teach us principles of software testing in class, he will mainly teach us syntax rules and elements of programming in the OOP paradigm. Yet,
+
+the class suspects whatever code you submit, it will work through all automated tests the robot
+
+will analyze your source code with. So it is our problem to test our source code. You can use
+
+smart tests, but according to Steve McConnell in Code Complete 2nd ed, at some point you should
+
+use randomized testing to double check if anything goes wrong in your code. So, when I set out to 
+
+issue randomized tests to my assignment file, I ran into an army of text processing problems. First
+
+of all, my code is not designed to iteratively accept input. I knew there were two ways to do this
+
+at the beginnig: either make your assignment file iteratively accept input or allow bash to iteratively
+
+feed input, one by one, to the assignment executable file. I figured making bash do the text processing
+
+work would be smarter for the reasons I am about to tell you:
+
+1. Look at all the files that were unintentionally born just because of my struggle in getting the
+
+damn C++ cin method to accept multiple inputs iteratively:
+
+hrt.cpp            randomized_tests.hrt         randomized_tests_hrt.out*      smart_tests_hrt.txt
+hrt_testable.cpp   randomized_tests.hrt.report  remove_comments_test_hrt.cpp   swag.txt
+hrt_testable.out*  randomized_tests_hrt.cpp     remove_comments_test_hrt.out*
+
+See all that crap? That was exactly how hard it was for me to have to fight with the C++ cin method
+
+to get my assignment file to iteratively accept multiple inputs. Oh, and I do not like the idea of 
+
+changing my C++ file. Once 
+
+
+programmers make a successful C++ file that does its job at a fundamental file. They hate having
+
+having to tamper with the file because it can either:
+
+a) Screw up your code horribly
+
+b) Lead to bureaucratic problems like the horrible list I just showed you. And then
+
+I am obviously going to mix up these files out of confusion won't I? It's a matter of
+
+time people. But wait, it get's worse! Not only was I supposed to make sure the C++ file spits
+
+out the ouput in response to a list of randomized inputs, I was supposed to compare the
+
+results of the C++ file to another program using the same exact text file containing the randomized
+
+list of inputs. That was how I was supposed to check the accuracy of the randomized inputs. So
+
+not only do I have to tamper with the C++ code, I also have to tamper with the code WRITTEN BY
+
+SOMEONE ELSE. All software developers are fully aware how much of a pain in farce it is to read
+
+their own code after a brief period of time has passed, let alone another person's code. And
+
+that will make the bureaucratic problem you just saw above at least 2x worse. So how will BASH
+
+fix all of this? 
+
+Short Answer: Shell Script.
+
+Even after tampering with the original source code files, I still need to perform a bunch of
+
+commands to get each source code file to COMPILE, STORE IN THE RIGHT DIRECTORY, GENERATE LIST
+
+OF RANDOMIZED INPUTS, STORE THAT INTO A TEXT FILE, AND THEN MAKE SURE EACH SOURCE CODE ACTUALLY
+
+ACCEPTS THE LIST OF INPUTS, AND THEN STORING ALL THOSE INTO SEPARATE OUTPUT FILES FOR EACH
+
+SOURCE FILE, AND FINALLY COMPARING THE OUTPUT FILES.
+
+Every annoying phrase I just bolded was supposed to be done by BASH. BASH is still the most
+
+widely used shell programming language to this day. It was designed to make navigation
+
+throughout the operating system an easy task. And, best of all, it was a scripting language.
+
+Not only could you easily navigate throughout the operating system, you could AUTOMATE THE
+
+PROCESS USING a shell script. Just write a shell script detailing exactly what commands you
+
+needed to execute and save the script file. From that point on, the script file will take care
+
+of everything for you while you sipped coffee. That's why real life criminal hackers don't
+
+always furiously type on that keyboard onto the dark screen. They sometimes let the shell
+
+script do all the typing and executing for them. And BASH is Turing Complete, it can perform
+
+all the tasks that imperative languages can all do: variables, conditionals, looping, recursion
+
+and even (DRUMROLL PLEASE): GENERATING RANDOM VALUES. So cook up a nice script to DOWNLOAD ALL
+
+THE FILES YOU NEED FROM GITHUB or whatever file reversion system you use, write all the
+
+commands that need to be executed in the shell script and let the shell script handle the dirty
+
+work while you sip that coffee.
+
+BUT WAIT! Windows doesn't support BASH. Yeah, well, now Windows 10 allows people to use BASH.
+
+You will have to install the Ubuntu developer platform for Windows users. 
+
+
