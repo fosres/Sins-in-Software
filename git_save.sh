@@ -1,6 +1,6 @@
 # git_save.sh
 # Saves git local repository 
-# for Sins-in-Software to GitHub.
+# for master to GitHub.
 
 # To run git_save.sh:
 # Type "bash git_save.sh"
@@ -14,7 +14,7 @@
 
 	git add .
 
-	git commit -m Sins-in-Software
+	git commit -m master
 
-	git push origin Sins-in-Software
+	git push origin master
 
