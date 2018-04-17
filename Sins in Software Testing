@@ -119,4 +119,35 @@ BUT WAIT! Windows doesn't support BASH. Yeah, well, now Windows 10 allows people
 
 You will have to install the Ubuntu developer platform for Windows users. 
 
+-------------------------------------------------------------------------------------------------------------------------------
+
+Sins in Software Testing
+
+Remember how you wasted all
+
+that time checking the
+
+precision and accuracy of 
+
+doubles in the PIC Lab -
+
+all ultimately in vain?
+
+99% of that time wasted
+
+on TESTING. And you know
+
+what could have made software
+
+testing take 99% less time?
+
+Write down the software tests
+
+in planning. Write out the exact
+
+test followed by the main reason
+
+FOR THE INDIVIDUAL TEST EXPLAINED
+
+IN COMMENTS.
 
