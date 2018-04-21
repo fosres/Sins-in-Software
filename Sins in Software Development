@@ -428,4 +428,129 @@ YOUR SYNTAX AND SEMANTICAL MASTERY
 
 OF THAT LANGUAGE.
 
+------------------------------------
+Problem: Luhn Checksum Validation Came from "Think Like A Programmer" by V. Anton Spraul
 
+NOT UNDERSTANDING HOW TO CONCEPTUALLY
+
+SOLVE THE PROBLEM
+
+THE CHECKSUM FORMULA REALLY CONFUSED
+
+YOU BECAUSE OF THE COMMUTATIVE NATURE
+
+OF ADDITION.
+
+You thought that the sum would be
+
+the same whether you validated
+
+the checksum forwards or backwards.
+
+Well, the following number, if
+
+you applied the Luhn checksum,
+
+disproves that:
+
+123456789999
+
+The above number is VALID
+
+according to the Luhn checksum
+
+formula. If you don't belive
+
+me, check out:
+
+https://www.dcode.fr/luhn-algorithm
+
+and find out for yourself
+
+that they did it right.
+
+Let me prove it:
+
+1	2	3	4	5	6	7	8	9	9	9	9
+1	4	3	8	5	12	7	16	9	18	9	18
+1   +	4   +	3   +	8   +	5   +	1+2  +	7   +	1+6  +	9   +	1+8  + 	9   +	1+8 = 74 % 10 != 0
+
+---->	---->	---->	---->	---->	---->	---->	---->	---->	---->	---->	---->
+
+First of, all you did this calculation left to right. 
+
+You thought the validation works from left to right.
+
+NO, it works right to left. Go visit that link.
+
+It works RIGHT TO LEFT.
+
+Now, the real question is HOW DID YOU MESS UP
+
+ON THE PROBLEM THAT YOU COPIED VERBATIM ON
+
+NOTEBOOK PAPER. I think this disproves
+
+copying the problem verbatim helps. 
+
+ONLY RESTATING THE PROBLEM IN YOUR OWN 
+
+WORDS DOES. But even trying to 
+
+restate the problem in your own words,
+
+which you tried to do, proved
+
+insufficient. After all, you
+
+misunderstood the problem.
+
+The biggest question of this sad story
+
+is: How Will you Prevent Misunderstanding
+
+How to Solve the Problem Conceptually?
+
+By doing this:
+
+Imagine you are an instructor and it
+
+is your job to determine if a student
+
+can correctly solve a problem on paper.
+
+What kinds of problems should you test
+
+the student on. Write those inputs down
+
+as test questions. 
+
+Now ask yourself seriously, if my student
+
+got a 100% on that test, would I reasonably
+
+believe the student would always be able
+
+to solve those problems correctly.
+
+Do those exact test problems yourself and
+
+compare your results with that of a program
+
+to ensure you yourself understand how to do
+
+the problem. These test problems will
+
+be the tests in your smart_tests!
+
+Once you proved you yourself can 
+
+always do the problem on paper,
+
+THERE should not be any possibility
+
+that you will misunderstand solving
+
+the problem by making code to do it
+
+for you.
