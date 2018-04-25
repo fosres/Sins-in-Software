@@ -554,3 +554,27 @@ that you will misunderstand solving
 the problem by making code to do it
 
 for you.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+SIN: NEVER MAKE CLOSING BRACE
+
+A PAGE AWAY FROM OPENING BRACE
+
+You are supposed to keep functions
+
+short for obvious reasons. Accept
+
+the above as a rule of thumb.
+
+Best way to implement this rule
+
+is to break up the nasty main
+
+method code into several, small
+
+functions. Give the functions
+
+a name that makes their...
+
+function obvious.
